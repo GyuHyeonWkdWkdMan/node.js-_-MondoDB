@@ -24,7 +24,7 @@ const customerSchema = mongoose.Schema({
 const Customer = mongoose.model('Schema', customerSchema);
 
 /* Generate instance*/
-const customer1 = new Customer({ name: '홍길동', age: '30', sex: '남'});
+const customer1 = new Customer({ name: '홍길동', age: '30', sex: '남' });
 
 /* Save Data into MongoDB */
 customer1.save().then(()=> {
